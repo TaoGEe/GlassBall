@@ -1,0 +1,23 @@
+2020-02-18 18:37:48-warn: Recovery window failed: /Users/apple/.CocosEditor3D/editor/window.json read error.
+2020-02-18 18:37:48-warn: TypeError: (intermediate value)(intermediate value).forEach is not a function
+2020-02-18 18:37:49-warn: [Window] Error: 会话不存在或已过期
+2020-02-18 18:37:58-log: preferences@1.0.0 enable
+2020-02-18 18:37:58-log: engine@1.0.0 enable
+2020-02-18 18:37:58-log: asset-db@1.0.0 enable
+2020-02-18 18:37:58-log: console@1.0.0 enable
+2020-02-18 18:37:59-log: scene@1.0.0 enable
+2020-02-18 18:37:59-log: ui-kit@1.0.0 enable
+2020-02-18 18:37:59-log: assets@1.0.0 enable
+2020-02-18 18:37:59-log: inspector@1.0.0 enable
+2020-02-18 18:37:59-log: hierarchy@1.0.0 enable
+2020-02-18 18:37:59-log: packager@1.0.0 enable
+2020-02-18 18:37:59-log: project-setting@1.0.0 enable
+2020-02-18 18:37:59-log: preview@1.0.0 enable
+2020-02-18 18:37:59-info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+2020-02-18 18:37:59-log: builder@1.0.0 enable
+2020-02-18 18:37:59-log: animator@1.0.0 enable
+2020-02-18 18:37:59-log: about@1.0.0 enable
+2020-02-18 18:37:59-log: tester@1.0.0 enable
+2020-02-18 18:37:59-log: ipc@1.0.0 enable
+2020-02-18 18:37:59-log: profile@1.0.0 enable
