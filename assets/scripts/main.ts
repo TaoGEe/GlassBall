@@ -1,4 +1,6 @@
-import { _decorator, Component, Node } from "cc";
+import { _decorator, Component, Node, CanvasPool, instantiate, find } from "cc";
+import { UIManager } from "./modules/ui/UIManager";
+import { UIModule } from "./modules/ui/UIModule";
 const { ccclass, property } = _decorator;
 
 @ccclass("main")
@@ -12,6 +14,14 @@ export class main extends Component {
 
     start () {
         // Your initialization goes here.
+        let root = find("Root")
+        UIManager.getInstance().setUIRoot(root);
+        UIManager.getInstance().openView({
+            viewName : UIModule.sViews.LoginView,
+            param : "1"
+        }, function ( view ) {
+            
+        })
     }
 
     // update (deltaTime: number) {

@@ -1,0 +1,29 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "image": "0e7f5f57-9fed-48a4-a724-8e6e48d4b5f6",
+    "name": "cocos",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 265,
+      "height": 341
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 265,
+      "height": 341
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

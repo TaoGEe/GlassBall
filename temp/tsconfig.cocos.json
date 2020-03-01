@@ -3,7 +3,7 @@
     "target": "es2016",
     "module": "es6",
     "types": [
-      "/Applications/CocosCreator3D.app/Contents/Resources/resources/3d/engine/bin/.declarations/cc"
+      "./temp/declarations/cc"
     ],
     "experimentalDecorators": true,
     "isolatedModules": true,

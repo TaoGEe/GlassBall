@@ -2,19 +2,12 @@ import { _decorator, Component, Node } from "cc";
 const { ccclass, property } = _decorator;
 
 @ccclass("ModuleBase")
-export class ModuleBase extends Component {
-    /* class member could be defined like this */
-    // dummy = '';
+export class ModuleBase{
 
-    /* use `property` decorator if your want the member to be serializable */
-    // @property
-    // serializableDummy = 0;
+    mName : string;
 
-    start () {
-        // Your initialization goes here.
+    constructor( name:string ) {
+        this.mName = name;
     }
 
-    // update (deltaTime: number) {
-    //     // Your update function goes here.
-    // }
 }

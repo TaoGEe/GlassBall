@@ -1,0 +1,6 @@
+{
+    "resolveMap": {
+        "./modules/ui/UIManager": "C:/Users/Administrator/Desktop/GlassBall/GlassBall/assets/scripts/modules/ui/UIManager.ts",
+        "./modules/ui/UIModule": "C:/Users/Administrator/Desktop/GlassBall/GlassBall/assets/scripts/modules/ui/UIModule.ts"
+    }
+}

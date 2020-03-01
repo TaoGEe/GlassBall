@@ -1,9 +1,9 @@
-"use strict";
-
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _decorator, Component, _dec, _class, ccclass, property, ModuleBase;
+  var _cclegacy, _decorator, _dec, _class, _crd, ccclass, property, ModuleBase;
+
+  function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
   _export({
     _dec: void 0,
@@ -12,47 +12,26 @@ System.register(["cc"], function (_export, _context) {
 
   return {
     setters: [function (_cc) {
+      _cclegacy = _cc.cclegacy;
       _decorator = _cc._decorator;
-      Component = _cc.Component;
     }],
     execute: function () {
-      cc._RF.push(window.module || {}, "5519aBGdQxKV4EYR9sbSAKT", "ModuleBase"); // begin ModuleBase
+      _cclegacy._RF.push({}, "5519aBGdQxKV4EYR9sbSAKT", "ModuleBase", _context.meta);
 
-
+      _crd = true;
       ccclass = _decorator.ccclass;
       property = _decorator.property;
 
-      _export("ModuleBase", ModuleBase = (_dec = ccclass("ModuleBase"), _dec(_class =
-      /*#__PURE__*/
-      function (_Component) {
-        babelHelpers.inherits(ModuleBase, _Component);
+      _export("ModuleBase", ModuleBase = (_dec = ccclass("ModuleBase"), _dec(_class = function ModuleBase(name) {
+        _classCallCheck(this, ModuleBase);
 
-        function ModuleBase() {
-          babelHelpers.classCallCheck(this, ModuleBase);
-          return babelHelpers.possibleConstructorReturn(this, babelHelpers.getPrototypeOf(ModuleBase).apply(this, arguments));
-        }
+        this.mName = name;
+      }) || _class));
 
-        babelHelpers.createClass(ModuleBase, [{
-          key: "start",
+      _crd = false;
 
-          /* class member could be defined like this */
-          // dummy = '';
-
-          /* use `property` decorator if your want the member to be serializable */
-          // @property
-          // serializableDummy = 0;
-          value: function start() {} // Your initialization goes here.
-          // update (deltaTime: number) {
-          //     // Your update function goes here.
-          // }
-
-        }]);
-        return ModuleBase;
-      }(Component)) || _class));
-
-      cc._RF.pop(); // end ModuleBase
-
+      _cclegacy._RF.pop();
     }
   };
 });
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3Q6Ly8vYXNzZXRzL3NjcmlwdHMvbW9kdWxlcy9iYXNlL01vZHVsZUJhc2UudHMiXSwibmFtZXMiOlsiX2RlY29yYXRvciIsIkNvbXBvbmVudCIsImNjY2xhc3MiLCJwcm9wZXJ0eSIsIk1vZHVsZUJhc2UiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBQVNBLE1BQUFBLFUsT0FBQUEsVTtBQUFZQyxNQUFBQSxTLE9BQUFBLFM7OztpRkFFb0Q7OztBQURqRUMsTUFBQUEsTyxHQUFzQkYsVSxDQUF0QkUsTztBQUFTQyxNQUFBQSxRLEdBQWFILFUsQ0FBYkcsUTs7NEJBR0pDLFUsV0FEWkYsT0FBTyxDQUFDLFlBQUQsQzs7Ozs7Ozs7Ozs7OztBQUVKO0FBQ0E7O0FBRUE7QUFDQTtBQUNBO2tDQUVTLENBRVIsQyxDQURHO0FBR0o7QUFDQTtBQUNBOzs7O1FBZDRCRCxTOztvQkFGZCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IF9kZWNvcmF0b3IsIENvbXBvbmVudCwgTm9kZSB9IGZyb20gXCJjY1wiO1xuY29uc3QgeyBjY2NsYXNzLCBwcm9wZXJ0eSB9ID0gX2RlY29yYXRvcjtcblxuQGNjY2xhc3MoXCJNb2R1bGVCYXNlXCIpXG5leHBvcnQgY2xhc3MgTW9kdWxlQmFzZSBleHRlbmRzIENvbXBvbmVudCB7XG4gICAgLyogY2xhc3MgbWVtYmVyIGNvdWxkIGJlIGRlZmluZWQgbGlrZSB0aGlzICovXG4gICAgLy8gZHVtbXkgPSAnJztcblxuICAgIC8qIHVzZSBgcHJvcGVydHlgIGRlY29yYXRvciBpZiB5b3VyIHdhbnQgdGhlIG1lbWJlciB0byBiZSBzZXJpYWxpemFibGUgKi9cbiAgICAvLyBAcHJvcGVydHlcbiAgICAvLyBzZXJpYWxpemFibGVEdW1teSA9IDA7XG5cbiAgICBzdGFydCAoKSB7XG4gICAgICAgIC8vIFlvdXIgaW5pdGlhbGl6YXRpb24gZ29lcyBoZXJlLlxuICAgIH1cblxuICAgIC8vIHVwZGF0ZSAoZGVsdGFUaW1lOiBudW1iZXIpIHtcbiAgICAvLyAgICAgLy8gWW91ciB1cGRhdGUgZnVuY3Rpb24gZ29lcyBoZXJlLlxuICAgIC8vIH1cbn1cbiJdfQ==
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6L1VzZXJzL0FkbWluaXN0cmF0b3IvRGVza3RvcC9HbGFzc0JhbGwvR2xhc3NCYWxsL2Fzc2V0cy9zY3JpcHRzL21vZHVsZXMvYmFzZS9Nb2R1bGVCYXNlLnRzIl0sIm5hbWVzIjpbIl9kZWNvcmF0b3IiLCJjY2NsYXNzIiwicHJvcGVydHkiLCJNb2R1bGVCYXNlIiwibmFtZSIsIm1OYW1lIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7QUFBU0EsTUFBQUEsVSxPQUFBQSxVOzs7Ozs7QUFDREMsTUFBQUEsTyxHQUFzQkQsVSxDQUF0QkMsTztBQUFTQyxNQUFBQSxRLEdBQWFGLFUsQ0FBYkUsUTs7NEJBR0pDLFUsV0FEWkYsT0FBTyxDQUFDLFlBQUQsQyxnQkFLSixvQkFBYUcsSUFBYixFQUEyQjtBQUFBOztBQUN2QixhQUFLQyxLQUFMLEdBQWFELElBQWI7QUFDSCxPIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgX2RlY29yYXRvciwgQ29tcG9uZW50LCBOb2RlIH0gZnJvbSBcImNjXCI7XHJcbmNvbnN0IHsgY2NjbGFzcywgcHJvcGVydHkgfSA9IF9kZWNvcmF0b3I7XHJcblxyXG5AY2NjbGFzcyhcIk1vZHVsZUJhc2VcIilcclxuZXhwb3J0IGNsYXNzIE1vZHVsZUJhc2V7XHJcblxyXG4gICAgbU5hbWUgOiBzdHJpbmc7XHJcblxyXG4gICAgY29uc3RydWN0b3IoIG5hbWU6c3RyaW5nICkge1xyXG4gICAgICAgIHRoaXMubU5hbWUgPSBuYW1lO1xyXG4gICAgfVxyXG5cclxufVxyXG4iXX0=

@@ -1,5 +1,6 @@
 {
   "name": "GlassBall",
   "type": "3d",
-  "uuid": "380cc63f-a6e5-45a9-838d-159ce08585b3"
+  "uuid": "380cc63f-a6e5-45a9-838d-159ce08585b3",
+  "version": "1.0.3"
 }
