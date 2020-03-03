@@ -10,4 +10,23 @@ export class UIModule extends ModuleBase{
         Tips : "prefab/ui/Tips.prefab" ,
         HomeView : "prefab/ui/HomeView.prefab" ,
     }
+
+    static sBattleView = {
+        BattleView : "prefab/ui/BattleView.prefab" ,
+    }
+
+    static sScene = {
+        LaunchScene : "LaunchScene" ,
+        BattleScene : "BattleScene" ,
+    }
+
+    static GetSceneName( path : string ) : string {
+        let fileName = path.substr( path.lastIndexOf('/')+1 );
+        let key = fileName.replace(".prefab", "");
+        if ( this.sViews.hasOwnProperty( key )) {
+            return this.sScene.LaunchScene;
+        } else if ( this.sBattleView.hasOwnProperty( key )){
+            return this.sScene.BattleScene;
+        }
+    }
 }

@@ -1,4 +1,4 @@
-import { _decorator, CCObject, loader, Prefab, view, instantiate, SpriteComponent,Node, RichTextComponent, AnimationClip, AnimationComponent } from "cc";
+import { _decorator, CCObject, loader, Prefab, view, instantiate, SpriteComponent,Node, RichTextComponent, AnimationClip, AnimationComponent, find } from "cc";
 import { ViewBase } from "./ViewBase";
 import { UIAdaptor } from "./UIAdapt";
 import { UIModule } from "./UIModule";
@@ -14,6 +14,7 @@ export class UIManager {
 
     private mCurView : ViewBase;
     private uiRoot : Node;
+    private mCurScene : string;
     
     static getInstance() : UIManager {
         if (this.sInstance == null) {
@@ -23,13 +24,30 @@ export class UIManager {
     }
 
     constructor(){
+        this.enterNewScene(UIModule.sScene.LaunchScene)
     }
 
-    public setUIRoot( root : Node ) {
-        this.uiRoot = root;
+    public enterNewScene( scene : string) {
+        this.mCurScene = scene;
+        this.mViewStack = [];
+        this.mCurView = null;
+        this.uiRoot = find("Root");
     }
 
     public openView( viewInfo : any , callback : any = null ) {
+        let uim = this;
+        let scene = UIModule.GetSceneName( viewInfo.viewName );
+        if (this.mCurScene != scene) {
+            cc.director.loadScene(scene, function () {
+                uim.enterNewScene(scene);
+                uim.addViewToScene(viewInfo, callback);
+            });
+        } else {
+            this.addViewToScene( viewInfo, callback );
+        }
+    }
+
+    private addViewToScene( viewInfo : any , callback : any = null  ) {
         let uim = this;
         this.loadView( viewInfo.viewName, function ( node : Node ) {
             let view = uim.addView( node, viewInfo.param );

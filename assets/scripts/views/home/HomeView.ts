@@ -1,4 +1,6 @@
-import { _decorator, Component, Node } from "cc";
+import { _decorator, Component, Node, ButtonComponent } from "cc";
+import { UIManager } from "../../modules/ui/UIManager";
+import { UIModule } from "../../modules/ui/UIModule";
 const { ccclass, property } = _decorator;
 
 @ccclass("HomeView")
@@ -12,6 +14,19 @@ export class HomeView extends Component {
 
     start () {
         // Your initialization goes here.
+        let btn = this.node.getChildByPath("Content/RightDown/Layout/ButtonChallenge");
+        let btncom = btn.getComponent(ButtonComponent);
+        let clickEvent = new cc.Component.EventHandler();
+        clickEvent.target = this.node;
+        clickEvent.component = "HomeView";
+        clickEvent.handler = "onChallenge";
+        btncom.clickEvents.push(clickEvent);
+    }
+
+    onChallenge() {
+        UIManager.getInstance().openView({
+            viewName : UIModule.sBattleView.BattleView
+        })
     }
 
     // update (deltaTime: number) {

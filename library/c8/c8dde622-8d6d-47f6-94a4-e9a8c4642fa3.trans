@@ -1,7 +1,7 @@
 {
     "resolveMap": {
-        "./ViewBase": "C:/Users/Administrator/Desktop/GlassBall/GlassBall/assets/scripts/modules/ui/ViewBase.ts",
-        "./UIAdapt": "C:/Users/Administrator/Desktop/GlassBall/GlassBall/assets/scripts/modules/ui/UIAdapt.ts",
-        "./UIModule": "C:/Users/Administrator/Desktop/GlassBall/GlassBall/assets/scripts/modules/ui/UIModule.ts"
+        "./ViewBase": "/Volumes/win10/GlassBall/assets/scripts/modules/ui/ViewBase.ts",
+        "./UIAdapt": "/Volumes/win10/GlassBall/assets/scripts/modules/ui/UIAdapt.ts",
+        "./UIModule": "/Volumes/win10/GlassBall/assets/scripts/modules/ui/UIModule.ts"
     }
 }

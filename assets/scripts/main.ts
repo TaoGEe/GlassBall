@@ -14,8 +14,6 @@ export class main extends Component {
 
     start () {
         // Your initialization goes here.
-        let root = find("Root")
-        UIManager.getInstance().setUIRoot(root);
         UIManager.getInstance().openView({
             viewName : UIModule.sViews.LoginView,
             param : "1"

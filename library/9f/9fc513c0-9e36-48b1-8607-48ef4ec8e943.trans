@@ -1,3 +1,6 @@
 {
-    "resolveMap": {}
+    "resolveMap": {
+        "../../modules/ui/UIManager": "/Volumes/win10/GlassBall/assets/scripts/modules/ui/UIManager.ts",
+        "../../modules/ui/UIModule": "/Volumes/win10/GlassBall/assets/scripts/modules/ui/UIModule.ts"
+    }
 }

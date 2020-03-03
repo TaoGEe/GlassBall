@@ -1,0 +1,5 @@
+{
+    "resolveMap": {
+        "../../battle/heroControl/HeroController": "/Volumes/win10/GlassBall/assets/scripts/battle/heroControl/HeroController.ts"
+    }
+}

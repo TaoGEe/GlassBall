@@ -39,7 +39,7 @@ export class LoginView extends ViewBase {
     public onBtnLogin(...args) {
         this.mUserName = this.editUserName.string.trim();
         this.mPWD = this.editPWD.string;
-        UIManager.getInstance().showTips(this.mUserName+" "+this.mPWD);
+        // UIManager.getInstance().showTips(this.mUserName+" "+this.mPWD);
         UIManager.getInstance().openView({
             viewName : UIModule.sViews.HomeView
         })

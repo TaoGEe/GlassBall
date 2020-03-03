@@ -1,5 +1,5 @@
 {
     "resolveMap": {
-        "../base/ModuleBase": "C:/Users/Administrator/Desktop/GlassBall/GlassBall/assets/scripts/modules/base/ModuleBase.ts"
+        "../base/ModuleBase": "/Volumes/win10/GlassBall/assets/scripts/modules/base/ModuleBase.ts"
     }
 }
