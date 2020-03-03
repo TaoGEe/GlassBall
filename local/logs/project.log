@@ -1,37 +1,85 @@
-2020-03-02 18:03:38-log: ui-kit@1.0.0 enable
-2020-03-02 18:03:38-log: ipc@1.0.0 enable
-2020-03-02 18:03:38-log: tester@1.0.0 enable
-2020-03-02 18:03:38-log: preferences@1.0.0 enable
-2020-03-02 18:03:40-log: engine@1.0.0 enable
-2020-03-02 18:03:40-log: asset-db@1.0.0 enable
-2020-03-02 18:03:40-log: console@1.0.0 enable
-2020-03-02 18:03:40-log: scene@1.0.0 enable
-2020-03-02 18:03:40-log: packager@1.0.0 enable
-2020-03-02 18:03:40-log: project-setting@1.0.0 enable
-2020-03-02 18:03:40-log: about@1.0.0 enable
-2020-03-02 18:03:40-log: server@1.0.0 enable
-2020-03-02 18:03:40-log: utils@1.0.0 enable
-2020-03-02 18:03:40-log: profile@1.0.0 enable
-2020-03-02 18:03:40-log: assets@1.0.0 enable
-2020-03-02 18:03:40-log: inspector@1.0.0 enable
-2020-03-02 18:03:40-log: hierarchy@1.0.0 enable
-2020-03-02 18:03:40-log: preview@1.0.0 enable
-2020-03-02 18:03:40-log: animator@1.0.0 enable
-2020-03-02 18:03:40-log: builder@1.0.0 enable
-2020-03-02 18:03:40-log: alipay-mini-game@1.0.0 enable
-2020-03-02 18:03:40-log: android@1.0.0 enable
-2020-03-02 18:03:40-log: baidu-mini-game@1.0.0 enable
-2020-03-02 18:03:40-log: cocos-play@1.0.0 enable
-2020-03-02 18:03:40-log: huawei-mini-game@1.0.0 enable
-2020-03-02 18:03:40-log: ios@1.0.0 enable
-2020-03-02 18:03:40-log: mac@1.0.0 enable
-2020-03-02 18:03:40-log: native@1.0.0 enable
-2020-03-02 18:03:40-log: oppo-mini-game@1.0.0 enable
-2020-03-02 18:03:40-log: vivo-mini-game@1.0.0 enable
-2020-03-02 18:03:40-log: web-desktop@1.0.0 enable
-2020-03-02 18:03:40-log: web-mobile@1.0.0 enable
-2020-03-02 18:03:40-log: wechatgame@1.0.0 enable
-2020-03-02 18:03:41-log: windows@1.0.0 enable
-2020-03-02 18:03:41-log: xiaomi-quick-game@1.0.0 enable
-2020-03-02 18:31:13-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-02 18:31:13-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 10:52:36-log: ui-kit@1.0.0 enable
+2020-03-03 10:52:36-log: ipc@1.0.0 enable
+2020-03-03 10:52:36-log: tester@1.0.0 enable
+2020-03-03 10:52:36-log: preferences@1.0.0 enable
+2020-03-03 10:52:37-log: engine@1.0.0 enable
+2020-03-03 10:52:37-log: asset-db@1.0.0 enable
+2020-03-03 10:52:37-log: console@1.0.0 enable
+2020-03-03 10:52:37-log: scene@1.0.0 enable
+2020-03-03 10:52:37-log: packager@1.0.0 enable
+2020-03-03 10:52:37-log: project-setting@1.0.0 enable
+2020-03-03 10:52:37-log: about@1.0.0 enable
+2020-03-03 10:52:37-log: server@1.0.0 enable
+2020-03-03 10:52:37-log: utils@1.0.0 enable
+2020-03-03 10:52:37-log: profile@1.0.0 enable
+2020-03-03 10:52:37-log: assets@1.0.0 enable
+2020-03-03 10:52:37-log: inspector@1.0.0 enable
+2020-03-03 10:52:37-log: hierarchy@1.0.0 enable
+2020-03-03 10:52:37-log: preview@1.0.0 enable
+2020-03-03 10:52:37-log: animator@1.0.0 enable
+2020-03-03 10:52:38-error: [Window] Plug-in(ui-kit) execution error: [windows].load code failed to execute.
+2020-03-03 10:52:38-error: [Window] Error: Failed to execute 'define' on 'CustomElementRegistry': this name has already been used with this registry
+2020-03-03 10:52:39-log: builder@1.0.0 enable
+2020-03-03 10:52:39-log: alipay-mini-game@1.0.0 enable
+2020-03-03 10:52:39-log: android@1.0.0 enable
+2020-03-03 10:52:39-log: baidu-mini-game@1.0.0 enable
+2020-03-03 10:52:39-log: cocos-play@1.0.0 enable
+2020-03-03 10:52:39-log: huawei-mini-game@1.0.0 enable
+2020-03-03 10:52:39-log: ios@1.0.0 enable
+2020-03-03 10:52:39-log: mac@1.0.0 enable
+2020-03-03 10:52:39-log: native@1.0.0 enable
+2020-03-03 10:52:39-log: oppo-mini-game@1.0.0 enable
+2020-03-03 10:52:39-log: vivo-mini-game@1.0.0 enable
+2020-03-03 10:52:39-log: web-desktop@1.0.0 enable
+2020-03-03 10:52:39-log: web-mobile@1.0.0 enable
+2020-03-03 10:52:39-log: wechatgame@1.0.0 enable
+2020-03-03 10:52:39-log: windows@1.0.0 enable
+2020-03-03 10:52:39-log: xiaomi-quick-game@1.0.0 enable
+2020-03-03 11:34:36-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 11:34:36-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 11:35:41-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 11:35:41-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 11:37:13-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 11:37:13-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 11:38:10-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 11:38:10-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 11:41:03-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 11:41:03-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 14:36:06-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 14:36:06-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 14:39:25-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 14:39:25-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 14:39:25-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 14:39:26-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 15:15:15-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:15:15-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:16:23-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:16:23-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:25:22-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:25:22-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:29:18-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 15:29:18-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 15:29:19-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 15:29:19-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 15:29:20-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 15:29:20-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 15:31:23-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 15:32:50-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 15:35:17-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:35:17-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:41:06-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:41:06-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:43:43-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 15:52:43-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:52:44-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:54:36-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:54:37-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:58:12-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:58:12-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 15:59:04-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 16:23:48-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 16:24:44-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
+2020-03-03 16:26:32-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 16:26:33-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 16:29:05-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-03 16:29:05-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.

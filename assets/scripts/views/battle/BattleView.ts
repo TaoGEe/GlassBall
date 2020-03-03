@@ -26,7 +26,6 @@ export class BattleView extends Component {
         if ( event.getEventCode() == EventTouch.BEGAN ) {
             
         } else if ( event.getEventCode() == EventTouch.MOVED ) {
-            cc.log("deltay :"+event.getDeltaX());
             this.mPlayer.onCameraRotation(event.getDeltaX());
         }
     }

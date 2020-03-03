@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, System, systemEvent, SystemEvent, EventKeyboard, v3, EventTouch, CameraComponent } from "cc";
+import { _decorator, Component, Node, System, systemEvent, SystemEvent, EventKeyboard, v3, EventTouch, CameraComponent, Vec3, math } from "cc";
 const { ccclass, property } = _decorator;
 
 @ccclass("HeroController")
@@ -50,27 +50,27 @@ export class HeroController extends Component {
     }
 
     onCameraRotation( delta : number) {
-        let rotation = this.node.getRotation();
-        rotation.y -= delta/1000;
-        this.node.setRotation( rotation );
+        const up =new Vec3(0,1,0);
+        const rotationx = this.node.getRotation();
+        math.Quat.rotateAround(rotationx, rotationx, up, -delta/2/ 360.0 * 3.1415926535);
+        this.node.setRotation(rotationx);
     }
-
 
     update (deltaTime: number) {
         // Your update function goes here.
-        let pos = this.node.getPosition();
+        let x = 0, z = 0;
         if (this.mKeyDown[cc.macro.KEY.w]) {
-            pos.z -= this.mSpeed*deltaTime;
-        }
-        if (this.mKeyDown[cc.macro.KEY.s]) {
-            pos.z += this.mSpeed*deltaTime;
+            z = -1;
+        }else if (this.mKeyDown[cc.macro.KEY.s]) {
+            z = 1;
         }
         if (this.mKeyDown[cc.macro.KEY.a]) {
-            pos.x -= this.mSpeed*deltaTime;
+            x = -1;
+        }else if (this.mKeyDown[cc.macro.KEY.d]) {
+            x = 1;
         }
-        if (this.mKeyDown[cc.macro.KEY.d]) {
-            pos.x += this.mSpeed*deltaTime;
-        }
-        this.node.setPosition(pos)
+        if ( x != 0 || z != 0 ) {
+            this.node.translate( v3(x*deltaTime*this.mSpeed,0,z*deltaTime*this.mSpeed) );
+        }        
     }
 }
