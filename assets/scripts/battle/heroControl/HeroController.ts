@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, System, systemEvent, SystemEvent, EventKeyboard, v3, EventTouch, CameraComponent, Vec3, math } from "cc";
+import { _decorator, Component, Node, System, systemEvent, SystemEvent, EventKeyboard, v3, EventTouch, CameraComponent, Vec3, math, RigidBodyComponent, find } from "cc";
 const { ccclass, property } = _decorator;
 
 @ccclass("HeroController")
@@ -16,10 +16,18 @@ export class HeroController extends Component {
 
     mCamera : Node = null;
 
+    mBall : RigidBodyComponent = null;
+
+    mInitPos : Vec3 = null;
+
+    mForce : number = 2000;
 
     start () {
 
         this.mCamera = this.node.getChildByName("Camera");
+        this.mBall = find("game/BallMy").getComponent(RigidBodyComponent);
+
+        this.mInitPos = this.mBall.node.getPosition();
         // Your initialization goes here.
         this.mKeyDown[cc.macro.KEY.w] = false;
         this.mKeyDown[cc.macro.KEY.s] = false;
@@ -29,6 +37,7 @@ export class HeroController extends Component {
         systemEvent.on(SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this)
         systemEvent.on(SystemEvent.EventType.KEY_UP, this.onKeyUp, this)
         this.node.on(SystemEvent.EventType.TOUCH_MOVE, this.onTouchMove, this)
+        
     }
 
     onKeyDown( event: EventKeyboard ) {
@@ -54,6 +63,38 @@ export class HeroController extends Component {
         const rotationx = this.node.getRotation();
         math.Quat.rotateAround(rotationx, rotationx, up, -delta/2/ 360.0 * 3.1415926535);
         this.node.setRotation(rotationx);
+    }
+
+    onSkill( index : number ) {
+        if (index == 1) {
+            let force = this.node.forward;
+            cc.log("forward: "+force)
+            let mCamera = this.mCamera.forward;
+            cc.log("mCamera: "+mCamera)
+
+            force.x *= -this.mForce;
+            force.z *= -this.mForce;
+
+            this.mBall.applyForce(force);
+        } else if (index == 2) {
+            this.mForce += 20;
+        } else {
+            this.mForce -= 20;
+        }
+    }
+
+    addForce( force:number ) {
+        let forward = this.node.forward;
+        forward.x *= -this.mForce*force;
+        forward.z *= -this.mForce*force;
+
+        this.mBall.applyForce(forward);
+    }
+    
+
+    reset() {
+        this.mBall.sleep();
+        this.mBall.node.setPosition(this.mInitPos);
     }
 
     update (deltaTime: number) {

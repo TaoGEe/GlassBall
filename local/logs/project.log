@@ -1,85 +1,148 @@
-2020-03-03 10:52:36-log: ui-kit@1.0.0 enable
-2020-03-03 10:52:36-log: ipc@1.0.0 enable
-2020-03-03 10:52:36-log: tester@1.0.0 enable
-2020-03-03 10:52:36-log: preferences@1.0.0 enable
-2020-03-03 10:52:37-log: engine@1.0.0 enable
-2020-03-03 10:52:37-log: asset-db@1.0.0 enable
-2020-03-03 10:52:37-log: console@1.0.0 enable
-2020-03-03 10:52:37-log: scene@1.0.0 enable
-2020-03-03 10:52:37-log: packager@1.0.0 enable
-2020-03-03 10:52:37-log: project-setting@1.0.0 enable
-2020-03-03 10:52:37-log: about@1.0.0 enable
-2020-03-03 10:52:37-log: server@1.0.0 enable
-2020-03-03 10:52:37-log: utils@1.0.0 enable
-2020-03-03 10:52:37-log: profile@1.0.0 enable
-2020-03-03 10:52:37-log: assets@1.0.0 enable
-2020-03-03 10:52:37-log: inspector@1.0.0 enable
-2020-03-03 10:52:37-log: hierarchy@1.0.0 enable
-2020-03-03 10:52:37-log: preview@1.0.0 enable
-2020-03-03 10:52:37-log: animator@1.0.0 enable
-2020-03-03 10:52:38-error: [Window] Plug-in(ui-kit) execution error: [windows].load code failed to execute.
-2020-03-03 10:52:38-error: [Window] Error: Failed to execute 'define' on 'CustomElementRegistry': this name has already been used with this registry
-2020-03-03 10:52:39-log: builder@1.0.0 enable
-2020-03-03 10:52:39-log: alipay-mini-game@1.0.0 enable
-2020-03-03 10:52:39-log: android@1.0.0 enable
-2020-03-03 10:52:39-log: baidu-mini-game@1.0.0 enable
-2020-03-03 10:52:39-log: cocos-play@1.0.0 enable
-2020-03-03 10:52:39-log: huawei-mini-game@1.0.0 enable
-2020-03-03 10:52:39-log: ios@1.0.0 enable
-2020-03-03 10:52:39-log: mac@1.0.0 enable
-2020-03-03 10:52:39-log: native@1.0.0 enable
-2020-03-03 10:52:39-log: oppo-mini-game@1.0.0 enable
-2020-03-03 10:52:39-log: vivo-mini-game@1.0.0 enable
-2020-03-03 10:52:39-log: web-desktop@1.0.0 enable
-2020-03-03 10:52:39-log: web-mobile@1.0.0 enable
-2020-03-03 10:52:39-log: wechatgame@1.0.0 enable
-2020-03-03 10:52:39-log: windows@1.0.0 enable
-2020-03-03 10:52:39-log: xiaomi-quick-game@1.0.0 enable
-2020-03-03 11:34:36-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 11:34:36-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 11:35:41-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 11:35:41-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 11:37:13-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 11:37:13-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 11:38:10-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 11:38:10-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 11:41:03-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 11:41:03-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 14:36:06-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 14:36:06-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 14:39:25-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 14:39:25-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 14:39:25-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 14:39:26-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 15:15:15-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:15:15-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:16:23-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:16:23-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:25:22-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:25:22-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:29:18-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 15:29:18-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 15:29:19-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 15:29:19-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 15:29:20-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 15:29:20-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 15:31:23-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 15:32:50-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 15:35:17-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:35:17-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:41:06-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:41:06-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:43:43-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 15:52:43-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:52:44-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:54:36-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:54:37-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:58:12-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:58:12-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 15:59:04-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 16:23:48-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 16:24:44-info: asset(C:\Users\Administrator\Desktop\GlassBall\GlassBall\assets\BattleScene.scene) saved
-2020-03-03 16:26:32-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 16:26:33-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 16:29:05-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
-2020-03-03 16:29:05-warn: [Scene] Can not instantiate CCClass 'ModuleBase' with arguments.
+2020-03-04 15:45:06-log: ui-kit@1.0.0 enable
+2020-03-04 15:45:06-log: ipc@1.0.0 enable
+2020-03-04 15:45:06-log: tester@1.0.0 enable
+2020-03-04 15:45:06-log: preferences@1.0.0 enable
+2020-03-04 15:45:07-log: engine@1.0.0 enable
+2020-03-04 15:45:07-log: asset-db@1.0.0 enable
+2020-03-04 15:45:07-log: console@1.0.0 enable
+2020-03-04 15:45:07-log: scene@1.0.0 enable
+2020-03-04 15:45:07-log: packager@1.0.0 enable
+2020-03-04 15:45:07-log: project-setting@1.0.0 enable
+2020-03-04 15:45:07-log: about@1.0.0 enable
+2020-03-04 15:45:07-log: server@1.0.0 enable
+2020-03-04 15:45:07-log: utils@1.0.0 enable
+2020-03-04 15:45:07-log: profile@1.0.0 enable
+2020-03-04 15:45:07-log: assets@1.0.0 enable
+2020-03-04 15:45:07-log: inspector@1.0.0 enable
+2020-03-04 15:45:07-log: hierarchy@1.0.0 enable
+2020-03-04 15:45:07-log: preview@1.0.0 enable
+2020-03-04 15:45:07-log: animator@1.0.0 enable
+2020-03-04 15:45:08-log: builder@1.0.0 enable
+2020-03-04 15:45:08-log: alipay-mini-game@1.0.0 enable
+2020-03-04 15:45:08-log: android@1.0.0 enable
+2020-03-04 15:45:08-log: baidu-mini-game@1.0.0 enable
+2020-03-04 15:45:08-log: cocos-play@1.0.0 enable
+2020-03-04 15:45:08-log: huawei-mini-game@1.0.0 enable
+2020-03-04 15:45:08-log: ios@1.0.0 enable
+2020-03-04 15:45:08-log: mac@1.0.0 enable
+2020-03-04 15:45:08-log: native@1.0.0 enable
+2020-03-04 15:45:08-log: oppo-mini-game@1.0.0 enable
+2020-03-04 15:45:08-log: vivo-mini-game@1.0.0 enable
+2020-03-04 15:45:08-log: web-desktop@1.0.0 enable
+2020-03-04 15:45:08-log: web-mobile@1.0.0 enable
+2020-03-04 15:45:08-log: wechatgame@1.0.0 enable
+2020-03-04 15:45:08-log: windows@1.0.0 enable
+2020-03-04 15:45:08-log: xiaomi-quick-game@1.0.0 enable
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/slider-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/toggle-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/sprite-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/scroll-view-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/view-group-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/webview/webView-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/widget-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/label-outline-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/graphics-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/ui-reorder-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/page-view-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/page-view-indicator-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/ui-static-batch-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/ui-opacity-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/widget-manager.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/framework/instance.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/cocos/shapes/builtin-shape.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/cocos/builtin-shared-body.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/utils/array-collision-matrix.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/framework/util.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/cannon/cannon-util.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/cannon/shapes/cannon-shape.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/cannon/cannon-shared-body.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/ammo/ammo-util.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/ammo/ammo-enum.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/framework/physics-enum.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/ammo/ammo-shared-body.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/utils/tuple-dictionary.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/ammo/ammo-const.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/ammo/ammo-instance.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/physics/ammo/shapes/ammo-shape.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/assets/asset-enum.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/utils/array.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/utils/pool.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/3d/framework/model-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/data/instantiate-jit.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/utils/decode-uuid.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/load-pipeline/asset-table.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/load-pipeline/md5-pipe.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/load-pipeline/pack-downloader.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/load-pipeline/subpackage-pipe.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/assets/simple-texture.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/assets/texture-base.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/platform/event-manager/input-manager.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/platform/event-manager/system-event.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/platform/event-manager/events.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/platform/event-manager/touch.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/platform/event-manager/event-enum.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/platform/event-manager/deprecated.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/components/ui-base/ui-transform-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/renderer/data-pool-manager.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/renderer/ui/ui.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/platform/event-manager/event-listener.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/pipeline/pipeline-serialization.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/pipeline/render-queue.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/pipeline/culling.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/pipeline/ui/ui-flow.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/pipeline/forward/enum.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/pipeline/pipeline-funcs.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/pipeline/render-batched-queue.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/load-pipeline/binary-downloader.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/load-pipeline/text-downloader.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/load-pipeline/utils.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/load-pipeline/plist-parser.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/load-pipeline/uuid-loader.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/load-pipeline/font-loader.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/load-pipeline/asset-loader.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/load-pipeline/released-asset-checker.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/scene-graph/base-node-dev.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/scene-graph/node-ui-properties.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/scene-graph/scene-globals.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/components/ui-base/canvas-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/components/ui-base/ui-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/components/ui-base/ui-render-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/components/ui-base/deprecated.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/3d/builtin/effects.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/3d/framework/batched-skinning-model-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/3d/framework/camera-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/3d/framework/directional-light-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/3d/framework/editor-camera-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/3d/framework/light-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/3d/framework/skinning-model-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/3d/framework/sphere-light-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/3d/framework/spot-light-component.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/3d/framework/deprecated.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/animation/value-proxy.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/data/utils/binary-search.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/animation/types.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/animation/animation-blend-state.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/utils/binary-search.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/animation/blending.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/animation/bound-target.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/animation/playable.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/animation/cross-fade.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/core/utils/profiler/counter.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/particle/animator/gradient.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/particle/models/particle-batch-model.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/particle/particle.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/assembler/graphics/webgl/index.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/assembler/label/bmfont.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/assembler/label/font-utils.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/assembler/label/letter.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/assembler/label/ttf.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/assembler/sprite/bar-filled.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/assembler/sprite/radial-filled.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/assembler/sprite/simple.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/assembler/sprite/sliced.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/assembler/sprite/tiled.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/assembler/mask/mask-assembler.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/editbox/edit-box-impl.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/editbox/edit-box-impl-base.js failed
+2020-03-04 15:45:09-error: [preview-error]load http://localhost:7456/scripting/engine/cocos/ui/components/editbox/types.js failed
+2020-03-04 16:02:51-info: asset(/Volumes/win10/GlassBall/assets/BattleScene.scene) saved
